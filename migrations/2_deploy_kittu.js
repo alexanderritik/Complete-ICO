@@ -1,5 +1,5 @@
 const Kittutoken = artifacts.require("Kittutoken");
 
 module.exports = function (deployer) {
-  deployer.deploy(Kittutoken);
+  deployer.deploy(Kittutoken, 100000);
 };
